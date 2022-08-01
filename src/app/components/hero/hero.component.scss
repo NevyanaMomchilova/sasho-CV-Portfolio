@@ -1,0 +1,64 @@
+.hero {
+  background-color: #ffffff;
+  height: 175px;
+  width: 770px;
+  border-radius: 25px;
+
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+
+    .profile {
+      height: 72px;
+      width: 72px;
+      margin-right: 10px;
+    }
+
+    .name {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 49px;
+      width: 100%;
+      max-width: 650px;
+      background-color: #f1f2f6;
+      border-radius: 25px;
+
+      p {
+        color: #636468;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: 25px;
+      }
+    }
+  }
+  .line {
+    height: 1px;
+    width: 100%;
+    max-width: 728px;
+    background-color: #d6d3d3;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contacts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+    .contact-type {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact-img {
+      height: 30px;
+      width: 30px;
+      margin-right: 5px;
+    }
+  }
+}

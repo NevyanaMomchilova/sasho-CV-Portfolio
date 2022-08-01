@@ -1,0 +1,35 @@
+<div class="body-container" *ngFor="let job of jobs">
+  <div class="company-details">
+    <img class="company-logo" [src]="job.logo" [alt]="job.logo" />
+    <div class="job-timeline">
+      <h4>{{ job.position }}</h4>
+      <p>{{ job.companyName }}</p>
+      <p>{{ job.startDate }} - {{ job.endDate }}</p>
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="container" *ngIf="job.description">
+    <div class="job-description" *ngFor="let desc of job.description">
+      <p>{{ desc }}</p>
+    </div>
+  </div>
+  <div class="container" *ngIf="job.freeText">{{ job.freeText }}</div>
+
+  <div class="social-section">
+    <div class="line"></div>
+    <div class="icons">
+      <p><img src="../../../assets/like.png" /> Like</p>
+      <p><img src="../../../assets/comment.png" /> Comment</p>
+      <p><img src="../../../assets/share.png" /> Share</p>
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <div class="input">
+    <img class="img-profile" src="../../../assets/hero.png" />
+    <div class="input-section">
+      <p>Write a comment...</p>
+      <img class="img-input" src="../../../assets/smile-2.png" />
+    </div>
+  </div>
+</div>

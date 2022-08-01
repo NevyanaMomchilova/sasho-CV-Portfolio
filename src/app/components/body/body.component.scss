@@ -1,0 +1,81 @@
+.body-container {
+  width: 100%;
+  max-width: 770px;
+  background-color: white;
+  border-radius: 25px;
+  margin: 10px 0;
+  padding: 15px;
+
+  .company-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+    .job-timeline {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .company-logo {
+    height: 48px;
+    width: 48px;
+  }
+
+  .line {
+    height: 1px;
+    width: 100%;
+    max-width: 728px;
+    background-color: #d6d3d3;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .job-description {
+  }
+  .container {
+    margin: 15px 0;
+  }
+
+  .social-section {
+    .icons {
+      display: flex;
+      justify-content: space-around;
+      margin: 5px 0;
+
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+  }
+
+  .input {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    .img-profile {
+      height: 48px;
+      width: 48px;
+    }
+
+    .input-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 15px;
+      width: 100%;
+      background-color: #f1f2f6;
+      border-radius: 25px;
+      .img-input {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+}
